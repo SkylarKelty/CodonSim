@@ -92,8 +92,6 @@ public:
 
 	void mutate();
 	void process(int chance);
-
-	void print();
 };
 
 #endif

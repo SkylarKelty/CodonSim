@@ -107,10 +107,3 @@ void Population::mutate() {
 void Population::process(int chance) {
 	m_pop->process(chance, m_pop);
 }
-
-/**
- * Print out the population
- */
-void Population::print() {
-
-}

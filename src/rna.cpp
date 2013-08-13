@@ -165,7 +165,6 @@ void RNA::process(int chance, PopulationNode *pop) {
 	m_time += get_time();
 	m_product++;
 	RNA::t_product++;
-	printf("%f, %d\n", m_time, t_product);
 
 	if (m_product >= 3 && m_product % 3 == 0) {
 		// After 3 products, mutate self and add to pop

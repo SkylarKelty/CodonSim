@@ -4,7 +4,7 @@
 int main(int argc, char *argv[]) {
 	srand(frandom());
 
-	int count = 100, ticks = 100;
+	int count = 10, ticks = 100;
 	if (argc > 1) {
 		count = atoi(argv[1]);
 	}
@@ -20,6 +20,9 @@ int main(int argc, char *argv[]) {
 	printf("--------------------------------------\n", count);
 	printf("Best possible time: %f\n", pop->get_optimal());
 	printf("Worst possible time: %f\n", pop->get_suboptimal());
+	printf("--------------------------------------\n", count);
+	printf("Cell Count: %d\n", count);
+	printf("Ticking: %d\n", ticks);
 	printf("--------------------------------------\n", count);
 	printf("Step, Best Time, Worst Time, Product\n", count);
 
